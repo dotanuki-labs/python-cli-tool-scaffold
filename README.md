@@ -25,14 +25,13 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 
 - Run the companion script
 
-```
+```bash
 → ./scaffold <your project name>
-
 ```
 
-- Test your changes locally with act
+- Test your changes locally with [Act](https://github.com/nektos/act)
 
-```
+```bash
 → act push
 ```
 

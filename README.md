@@ -1,19 +1,50 @@
-# Python CLI Tool Scaffold
-
-![Flake8](https://img.shields.io/badge/codestyle-flake8-yellow)
-[![License](https://img.shields.io/github/license/dotanuki-labs/python-cli-tool-scaffold)](https://choosealicense.com/licenses/mit)
+# Scaffold for CLI Tools🔥
 
 ## What is this?
 
-> *A template to easily bootstrap new Python projects*
+> *A template to easily bootstrap new CLI apps written in Python*
 
-## About
+## Why
 
-// TODO
+I found this setup very nice, so I'd like to have it available in the easiest way possible for my new Python projects (mostly CLI tools).
 
-## Running and testing
+## Features
 
-// TODO
+- Project driven by [Python Poetry](https://python-poetry.org/)
+- Code style driven by [Flake8](https://flake8.pycqa.org/en/latest/) and [EditorConfig](https://editorconfig.org/)
+- Compreehensive Makefile wrapping common target tasks
+- **Github Actions** Workflow to validate Pull Requests and pushes
+- **Github Actions** Workflow to deploy artifacts on [Pypi](https://pypi.org/) for each Github release
+- Ready to automatically track code coverage with [Codecov](https://codecov.io/)
+- [Dependabot](https://docs.github.com/en/github/administering-a-repository/keeping-your-dependencies-updated-automatically) ready
+- [MIT](https://choosealicense.com/licenses/mit) licensed
+
+## How to use
+
+- Click here to get this template
+
+- Run the companion script
+
+```
+→ ./scaffold <your project name>
+
+```
+
+- Test your changes locally with act
+
+```
+→ act push
+```
+
+- Ensure your repository has the navite [Github Dependabot enabled](https://docs.github.com/en/github/administering-a-repository/enabling-and-disabling-version-updates)
+
+- Link your repository with [Codecov](https://codecov.io/)
+
+- Add you Pypi token in the Github Actions [Secrets Manager](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
+
+- Add your name and email in `pyproject.toml` (as author)
+
+- Profit !!! 💯
 
 ## Author
 

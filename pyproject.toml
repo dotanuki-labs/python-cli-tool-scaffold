@@ -2,7 +2,7 @@
 name = "python-cli-tool-scaffold"
 version = "0.0.1"
 description = ""
-authors = ["Ubiratan Soares <ubiratan.f.soares@gmail.com>"]
+authors = ["Your name <your@email.com>"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/dotanuki-labs/python-cli-tool-scaffold"

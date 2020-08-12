@@ -39,7 +39,7 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 
 - Link your repository with [Codecov](https://codecov.io/)
 
-- Add you Pypi token in the Github Actions [Secrets Manager](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
+- Add you Pypi access token - as `PYPI_TOKEN` - in Github Actions [Secrets Manager](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
 
 - Add your name and email in `pyproject.toml` (as author)
 

@@ -21,3 +21,10 @@ build:
 
 run:
 	poetry run python_cli_tool_scaffold
+
+pypiconfig:
+	poetry config pypi-token.pypi $(token)
+
+deploy:
+	poetry build
+	poetry publish

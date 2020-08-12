@@ -16,8 +16,8 @@ inspect:
 test:
 	poetry run pytest -vv --cov-report=xml --cov=python_cli_tool_scaffold tests/
 
-help:
-	poetry run python_cli_tool_scaffold
+build:
+	poetry build
 
 run:
 	poetry run python_cli_tool_scaffold

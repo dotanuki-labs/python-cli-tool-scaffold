@@ -3,7 +3,7 @@ name: Main
 on: push
 
 jobs:
-  tests:
+  main:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,6 +26,9 @@ jobs:
 
       - name: Run tests
         run: make test
+
+      - name: Build Package
+        run: make build
 
       - name: Upload test reports to Codecov
         uses: codecov/codecov-action@v1.0.12

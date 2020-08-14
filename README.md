@@ -41,9 +41,9 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 
 - Add you Pypi access token - as `PYPI_TOKEN` - in Github Actions [Secrets Manager](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
 
-- Set your name and email in `pyproject.toml` (as **author**)
-- Set link(s) for your project repository in `pyproject.toml` (**homepage** and **repository**)
-- If needed, update/change Python version in `pyproject.toml` and for both YAML file in `.github/workflows`
+- Set your name and email at `pyproject.toml` (as **author**)
+- Set link(s) for your project repository at `pyproject.toml` (**homepage** and **repository**)
+- If needed, update/change Python version at `pyproject.toml` and for both YAML files at `.github/workflows`
 - If your project is open-source, update the `LICENSE` file
 
 - Profit! 💯

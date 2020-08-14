@@ -14,14 +14,14 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 - Code style driven by [Flake8](https://flake8.pycqa.org/en/latest/) and [EditorConfig](https://editorconfig.org/)
 - Compreehensive Makefile wrapping common target tasks
 - **Github Actions** Workflow to validate Pull Requests and pushes
-- **Github Actions** Workflow to deploy artifacts on [Pypi](https://pypi.org/) for each Github release
+- **Github Actions** Workflow to deploy artifacts on [Pypi](https://pypi.org/) every Github release
 - Ready to automatically track code coverage with [Codecov](https://codecov.io/)
 - [Dependabot](https://docs.github.com/en/github/administering-a-repository/keeping-your-dependencies-updated-automatically) ready
 - [MIT](https://choosealicense.com/licenses/mit) licensed
 
 ## How to use
 
-- Click here to get this template
+- Get this template
 
 - Run the companion script
 
@@ -35,13 +35,15 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 → act push
 ```
 
-- Ensure your repository has the navite [Github Dependabot enabled](https://docs.github.com/en/github/administering-a-repository/enabling-and-disabling-version-updates)
+- Ensure your Github repository has the native [Dependabot integration enabled](https://docs.github.com/en/github/administering-a-repository/enabling-and-disabling-version-updates)
 
-- Link your repository with [Codecov](https://codecov.io/)
+- Link your Github repository with [Codecov](https://codecov.io/)
 
 - Add you Pypi access token - as `PYPI_TOKEN` - in Github Actions [Secrets Manager](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
 
 - Add your name and email in `pyproject.toml` (as author)
+- Add link(s) for your project repo `pyproject.toml` (`homepage` and `repository`)
+- If your project is open-source, update the `LICENSE` file
 
 - Profit !!! 💯
 

@@ -13,7 +13,7 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 - Project driven by [Python Poetry](https://python-poetry.org/)
 - Code style driven by [Flake8](https://flake8.pycqa.org/en/latest/) and [EditorConfig](https://editorconfig.org/)
 - Compreehensive Makefile wrapping common target tasks
-- **Github Actions** Workflow to validate Pull Requests and pushes
+- **Github Actions** Workflow to validate pushes
 - **Github Actions** Workflow to deploy artifacts on [Pypi](https://pypi.org/) every Github release
 - Ready to automatically track code coverage with [Codecov](https://codecov.io/)
 - [Dependabot](https://docs.github.com/en/github/administering-a-repository/keeping-your-dependencies-updated-automatically) ready
@@ -41,11 +41,12 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 
 - Add you Pypi access token - as `PYPI_TOKEN` - in Github Actions [Secrets Manager](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
 
-- Add your name and email in `pyproject.toml` (as author)
-- Add link(s) for your project repo `pyproject.toml` (`homepage` and `repository`)
+- Set your name and email in `pyproject.toml` (as **author**)
+- Set link(s) for your project repository in `pyproject.toml` (**homepage** and **repository**)
+- If needed, update/change Python version in `pyproject.toml` and for both YAML file in `.github/workflows`
 - If your project is open-source, update the `LICENSE` file
 
-- Profit !!! 💯
+- Profit! 💯
 
 ## Author
 

@@ -16,7 +16,8 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 - **Github Actions** Workflow to validate pushes
 - **Github Actions** Workflow to deploy artifacts on [Pypi](https://pypi.org/) every Github release
 - Ready to automatically track code coverage with [Codecov](https://codecov.io/)
-- [Dependabot](https://docs.github.com/en/github/administering-a-repository/keeping-your-dependencies-updated-automatically) ready
+- [Dependabot](https://docs.github.com/en/github/administering-a-repository/keeping-your-dependencies-updated-automatically) ready (Pip packages and Github Actions)
+- [Mergify](https://mergify.io/) ready (automated merges for Dependabot updates)
 - [MIT](https://choosealicense.com/licenses/mit) licensed
 
 ## How to use

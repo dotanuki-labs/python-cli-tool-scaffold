@@ -1,3 +1,5 @@
+#! /bin/sh
+
 set -e
 
 CYAN="\033[0;36m"
@@ -35,6 +37,9 @@ echo "🔥 Writing new ${CYAN}README.md${NORMAL} file"
 rm README.md
 touch README.md
 echo "#$PROJECT_NAME" > README.md
+
+echo "🔥 Removing git references"
+rm -rf .git
 
 echo "🔥 Removing this script"
 rm scaffold.sh

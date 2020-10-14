@@ -6,6 +6,11 @@ jobs:
   main:
     runs-on: ubuntu-latest
 
+    strategy:
+      fail-fast: true
+      matrix:
+        python: ['3.8.5', '3.9']
+
     steps:
       - name: Project checkout
         uses: actions/checkout@v2.3.3
@@ -13,7 +18,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2.1.3
         with:
-          python-version: '3.8.5'
+          python-version: ${{ matrix.python }}
 
       - name: Install Poetry
         uses: dschep/install-poetry-action@v1.3

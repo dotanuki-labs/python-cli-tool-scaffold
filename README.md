@@ -11,6 +11,7 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 ## Features
 
 - Project driven by [Python Poetry](https://python-poetry.org/)
+- Supports Python from `3.8.x` to `3.9.x` at project level AND CI level
 - Code style driven by [Flake8](https://flake8.pycqa.org/en/latest/) and [EditorConfig](https://editorconfig.org/)
 - Compreehensive Makefile wrapping common target tasks
 - **Github Actions** Workflow to validate pushes

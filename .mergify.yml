@@ -12,7 +12,7 @@ pull_request_rules:
         method: squash
 
 pull_request_rules:
-  - name: Be Bira's friend
+  - name: Be author's friend
     conditions:
       - author~=ubiratansoares
       - check-success~=^main

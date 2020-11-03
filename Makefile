@@ -10,6 +10,7 @@ clean: ## Clean project files
 	rm -rf coverage.xml
 
 setup: ## Install dependencies
+	poetry update
 	poetry install
 
 inspect: ## Run unit and integration tests

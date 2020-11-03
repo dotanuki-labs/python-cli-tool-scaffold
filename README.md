@@ -11,12 +11,13 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 ## Features
 
 - Project driven by [Python Poetry](https://python-poetry.org/)
-- Supports Python from `3.8.x` to `3.9.x` at project level AND CI level
+- Supports Python from `3.8.x` to `3.9.x` at project level and CI level
 - Code style driven by [Flake8](https://flake8.pycqa.org/en/latest/) and [EditorConfig](https://editorconfig.org/)
 - Compreehensive Makefile wrapping common target tasks
 - **Github Actions** Workflow to validate pushes
 - **Github Actions** Workflow to deploy artifacts on [Pypi](https://pypi.org/) every Github release
 - Opinionated templates for new issues and pull requests
+- Opinionated CHANGELOG file driven by [keepachangelog.com](https://keepachangelog.com)
 - Ready to automatically track code coverage with [Codecov](https://codecov.io/)
 - [Dependabot](https://docs.github.com/en/github/administering-a-repository/keeping-your-dependencies-updated-automatically) ready (Pip packages and Github Actions)
 - [Mergify](https://mergify.io/) ready (automated merges for Dependabot updates)

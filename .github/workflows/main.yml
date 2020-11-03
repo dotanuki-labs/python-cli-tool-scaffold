@@ -4,12 +4,13 @@ on: [push, pull_request]
 
 jobs:
   main:
-    runs-on: ubuntu-latest
-
     strategy:
       fail-fast: true
       matrix:
-        python: ['3.8.5', '3.9']
+        os: [ubuntu-latest, macos-latest]
+        python: ['3.8.5', '3.8.6', '3.9']
+
+    runs-on: ${{ matrix.os }}
 
     steps:
       - name: Project checkout

@@ -9,9 +9,10 @@ clean: ## Clean project files
 	rm -rf .coverage
 	rm -rf coverage.xml
 
-setup: ## Install dependencies
+setup: ## Install dependencies and configure Pyenv
 	poetry update
 	poetry install
+	poetry config virtualenvs.in-project true
 
 inspect: ## Run unit and integration tests
 	flake8 python_cli_tool_scaffold tests

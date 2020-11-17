@@ -19,7 +19,7 @@ jobs:
           python-version: '3.8.5'
 
       - name: Install Poetry
-        uses: dschep/install-poetry-action@v1.3
+        uses: snok/install-poetry@v1.1.1
 
       - name: Install dependencies
         run: make setup

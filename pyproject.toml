@@ -19,7 +19,7 @@ flake8 = "3.8.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "6.2.1"
-pytest-cov = "2.11.0"
+pytest-cov = "2.11.1"
 
 [build-system]
 requires = ["poetry>=0.12"]

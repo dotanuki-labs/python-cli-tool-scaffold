@@ -14,8 +14,9 @@ setup: ## Install dependencies and configure Pyenv
 	poetry install
 	poetry config virtualenvs.in-project true
 
-inspect: ## Run unit and integration tests
+inspect: ## Run code analysis
 	flake8 python_cli_tool_scaffold tests
+	black --check python_cli_tool_scaffold tests
 
 test: ## Run unit and integration tests
 	poetry run pytest -vv --cov-report=xml --cov=python_cli_tool_scaffold tests/

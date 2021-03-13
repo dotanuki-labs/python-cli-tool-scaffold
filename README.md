@@ -12,7 +12,8 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 
 - Project driven by [Python Poetry](https://python-poetry.org/) and [Pyenv](https://github.com/pyenv/pyenv)
 - Supports Python from `3.8.x` to `3.9.x` at project level and CI level
-- Code style driven by [Flake8](https://flake8.pycqa.org/en/latest/) and [EditorConfig](https://editorconfig.org/)
+- Code conventions driven by [Flake8](https://flake8.pycqa.org/en/latest/) and [EditorConfig](https://editorconfig.org/)
+- Code formatting driven by [Black](https://github.com/psf/black)
 - Compreehensive Makefile wrapping common target tasks
 - **Github Actions** Workflow to validate pushes
 - **Github Actions** Workflow to deploy artifacts on [Pypi](https://pypi.org/) every Github release

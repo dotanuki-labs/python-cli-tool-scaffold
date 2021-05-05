@@ -20,7 +20,7 @@ python = "^3.8"
 flake8 = "3.9.1"
 black = "^21.4b2"
 bandit = "^1.7.0"
-pytest = "6.2.3"
+pytest = "6.2.4"
 pytest-cov = "2.11.1"
 
 [tool.black]

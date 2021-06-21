@@ -15,6 +15,7 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 - Code conventions driven by [Flake8](https://flake8.pycqa.org/en/latest/) and [EditorConfig](https://editorconfig.org/)
 - Code formatting driven by [Black](https://github.com/psf/black)
 - Improved error traces driven by [Pretty Errors](https://github.com/onelivesleft/PrettyErrors/)
+- Dead code detection driven by [Vulture](https://github.com/jendrikseipp/vulture)
 - Security checks driven by [Bandit](https://bandit.readthedocs.io/en/latest/)
 - Compreehensive Makefile wrapping common target tasks
 - **Github Actions** Workflow to validate checks on Pull Requests

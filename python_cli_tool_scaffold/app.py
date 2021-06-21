@@ -1,6 +1,5 @@
 # app.py
 
-
 from . import cli_parser
 
 import sys

@@ -11,9 +11,10 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 ## Features
 
 - Project driven by [Python Poetry](https://python-poetry.org/) and [Pyenv](https://github.com/pyenv/pyenv)
-- Supports Python from `3.8.x` to `3.9.x` at project level and CI level
+- Supports Python from `3.8.x` to `3.9.x` at local development level and CI level
 - Code conventions driven by [Flake8](https://flake8.pycqa.org/en/latest/) and [EditorConfig](https://editorconfig.org/)
 - Code formatting driven by [Black](https://github.com/psf/black)
+- Improved error traces driven by [Pretty Errors](https://github.com/onelivesleft/PrettyErrors/)
 - Security checks driven by [Bandit](https://bandit.readthedocs.io/en/latest/)
 - Compreehensive Makefile wrapping common target tasks
 - **Github Actions** Workflow to validate checks on Pull Requests
@@ -31,13 +32,7 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 - Run the companion script
 
 ```bash
-→ ./scaffold <your project name>
-```
-
-- Test your changes locally with [Act](https://github.com/nektos/act)
-
-```bash
-→ act push
+$> ./scaffold <your project name>
 ```
 
 - Ensure your Github repository has the native [Dependabot integration enabled](https://docs.github.com/en/github/administering-a-repository/enabling-and-disabling-version-updates)

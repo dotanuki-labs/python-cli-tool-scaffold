@@ -80,7 +80,7 @@ colorama = {version = "*", markers = "platform_system == \"Windows\""}
 name = "colorama"
 version = "0.4.4"
 description = "Cross-platform colored terminal text."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
@@ -191,6 +191,17 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [package.extras]
 dev = ["pre-commit", "tox"]
+
+[[package]]
+name = "pretty-errors"
+version = "1.2.21"
+description = "Prettifies Python exception output to make it legible."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+colorama = "*"
 
 [[package]]
 name = "py"
@@ -315,7 +326,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "dc17f6766926adea141c900b64961b243a20a552813d39a36d79417a679471ee"
+content-hash = "50cc8f931218e896e0cdad128b03ceeeb1f5553f804d161d2d803ed7f4ffa154"
 
 [metadata.files]
 appdirs = [
@@ -439,6 +450,10 @@ pbr = [
 pluggy = [
     {file = "pluggy-0.13.1-py2.py3-none-any.whl", hash = "sha256:966c145cd83c96502c3c3868f50408687b38434af77734af1e9ca461a4081d2d"},
     {file = "pluggy-0.13.1.tar.gz", hash = "sha256:15b2acde666561e1298d71b523007ed7364de07029219b604cf808bfa1c765b0"},
+]
+pretty-errors = [
+    {file = "pretty_errors-1.2.21-py3-none-any.whl", hash = "sha256:2329b2a1af933ac77b7410d576dce095996d3e660db59cc0f8e93f713866121a"},
+    {file = "pretty_errors-1.2.21.tar.gz", hash = "sha256:70198b13b5b438fe4ccef832e0c8659249965b69ba130d1b2130b6ec74336b0b"},
 ]
 py = [
     {file = "py-1.10.0-py2.py3-none-any.whl", hash = "sha256:3b80836aa6d1feeaa108e046da6423ab8f6ceda6468545ae8d02d9d58d18818a"},

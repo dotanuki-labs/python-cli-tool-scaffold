@@ -18,6 +18,7 @@ inspect: ## Run code analysis
 	poetry run flake8 python_cli_tool_scaffold tests
 	poetry run black --check python_cli_tool_scaffold tests
 	poetry run bandit -r python_cli_tool_scaffold
+	poetry run vulture python_cli_tool_scaffold tests
 
 test: ## Run unit and integration tests
 	poetry run pytest -vv --cov-report=xml --cov=python_cli_tool_scaffold tests/

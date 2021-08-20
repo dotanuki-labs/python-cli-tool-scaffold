@@ -15,7 +15,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.8"
-pretty-errors = "^1.2.23"
+pretty-errors = "^1.2.24"
 vulture = "^2.3"
 
 [tool.poetry.dev-dependencies]

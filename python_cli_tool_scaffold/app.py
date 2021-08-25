@@ -1,13 +1,13 @@
 # app.py
 
-from . import cli_parser
 
+import click
 import sys
 
 
-def main(argv=None):
-    answer = cli_parser.parse(argv)
-
+@click.command()
+@click.option("--answer", required=True, help="The answer for for everything in the universe")
+def launch(answer):
     if answer == "42":
         print("Answer is correct!")
     else:

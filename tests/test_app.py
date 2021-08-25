@@ -1,15 +1,15 @@
 # test_app.py
 
-from python_cli_tool_scaffold import app
+from click.testing import CliRunner
+from python_cli_tool_scaffold.app import launch
 
 
 def test_correct_answer():
-
-    # Given
-    argv = ["-a", "42"]
+    runner = CliRunner()
+    args = ["--answer", "42"]
 
     # When
-    app.main(argv)
+    result = runner.invoke(launch, args)
 
     # Then
-    assert True
+    assert result.exit_code == 0

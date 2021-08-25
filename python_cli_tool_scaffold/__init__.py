@@ -18,4 +18,4 @@ def main(argv=None):
         display_locals=True,
     )
 
-    app.main(argv)
+    app.launch()

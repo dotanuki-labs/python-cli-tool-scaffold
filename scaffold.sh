@@ -22,8 +22,10 @@ fi
 
 readonly scaffold_name="python_cli_tool_scaffold"
 readonly scaffold_tool="python-cli-tool-scaffold"
+readonly scaffold_year="<year>"
 readonly target_name="$1"
 readonly target_tool=${target_name//_/-}
+readonly target_year=$(date +'%Y')
 
 echo
 echo -e "🔥 Scaffolding with ${color_cyan}$target_name${color_normal}"
@@ -42,10 +44,13 @@ echo -e " ‣ Replacing references on ${color_cyan}pyproject.toml${color_normal}
 sed -i '' "s/$scaffold_name/$target_name/g" pyproject.toml
 sed -i '' "s/$scaffold_tool/$target_tool/g" pyproject.toml
 
-echo -e " ‣ Writing new ${color_cyan}README.md${color_normal} file"
+echo -e " ‣ Updating ${color_cyan}README.md${color_normal} file"
 rm README.md
 touch README.md
 echo "#$target_tool" >README.md
+
+echo -e " ‣ Updating ${color_cyan}LICENSE.md${color_normal} file"
+sed -i '' "s/$scaffold_year/$target_year/g" LICENSE.md
 
 echo " ‣ Removing git references"
 rm -rf .git

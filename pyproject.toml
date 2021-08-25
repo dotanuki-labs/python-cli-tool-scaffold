@@ -17,6 +17,7 @@ classifiers = [
 python = "^3.8"
 pretty-errors = "^1.2.24"
 vulture = "^2.3"
+click = "8.0.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = "3.9.2"

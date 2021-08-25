@@ -1,6 +1,7 @@
 .DEFAULT_GOAL := help
 
 clean: ## Clean project files
+	rm -rf .venv
 	rm -rf *.egg-info
 	rm -rf dist
 	rm -rf python_cli_tool_scaffold/__pycache__
@@ -9,16 +10,15 @@ clean: ## Clean project files
 	rm -rf .coverage
 	rm -rf coverage.xml
 
-setup: ## Install dependencies and configure Pyenv
+setup: ## Install dependencies and configure VirtualEnv
+	poetry config virtualenvs.in-project true
 	poetry update
 	poetry install
-	poetry config virtualenvs.in-project true
 
 inspect: ## Run code analysis
 	poetry run flake8 python_cli_tool_scaffold tests
 	poetry run black --check python_cli_tool_scaffold tests
 	poetry run bandit -r python_cli_tool_scaffold
-	poetry run vulture python_cli_tool_scaffold tests
 
 test: ## Run unit and integration tests
 	poetry run pytest -vv --cov-report=xml --cov=python_cli_tool_scaffold tests/

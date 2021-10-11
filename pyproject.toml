@@ -20,7 +20,7 @@ vulture = "2.3"
 click = "8.0.1"
 
 [tool.poetry.dev-dependencies]
-flake8 = "3.9.2"
+flake8 = "4.0.0"
 black = "21.9b0"
 bandit = "1.7.0"
 pytest = "6.2.5"

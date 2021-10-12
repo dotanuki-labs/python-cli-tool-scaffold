@@ -11,7 +11,7 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 ## Features
 
 - Project driven by [Python Poetry](https://python-poetry.org/) and [Pyenv](https://github.com/pyenv/pyenv)
-- Supports Python from `3.8.x` to `3.9.x` at local development level and CI level
+- Supports Python `3.8.x`, `3.9.x` and `3.10.x` at local development level and CI level
 - Code conventions driven by [Flake8](https://flake8.pycqa.org/en/latest/) and [EditorConfig](https://editorconfig.org/)
 - Code formatting driven by [Black](https://github.com/psf/black)
 - Improved error traces driven by [Pretty Errors](https://github.com/onelivesleft/PrettyErrors/)

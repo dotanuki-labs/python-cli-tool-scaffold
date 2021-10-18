@@ -44,6 +44,9 @@ echo -e " ‣ Replacing references on ${color_cyan}pyproject.toml${color_normal}
 sed -i '' "s/$scaffold_name/$target_name/g" pyproject.toml
 sed -i '' "s/$scaffold_tool/$target_tool/g" pyproject.toml
 
+echo -e " ‣ Replacing references on ${color_cyan}Dockerfile${color_normal}"
+sed -i '' "s/$scaffold_tool/$target_tool/g" Dockerfile
+
 echo -e " ‣ Updating ${color_cyan}README.md${color_normal} file"
 rm README.md
 touch README.md

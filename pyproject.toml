@@ -21,7 +21,7 @@ click = "8.0.3"
 
 [tool.poetry.dev-dependencies]
 flake8 = "4.0.1"
-black = "21.9b0"
+black = "21.10b0"
 bandit = "1.7.0"
 pytest = "6.2.5"
 pytest-cov = "3.0.0"

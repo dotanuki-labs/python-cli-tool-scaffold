@@ -61,6 +61,10 @@ rm -rf .git
 echo " ‣ Removing this script"
 rm scaffold.sh
 
+echo " ‣ Removing editor files (if any)"
+rm -rf .idea
+rm -rf .vscode
+
 echo
 echo -e "🔥 Done! Please fill the additional info at ${color_cyan}pyproject.toml${color_normal} :"
 echo

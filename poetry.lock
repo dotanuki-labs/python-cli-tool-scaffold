@@ -336,7 +336,7 @@ python-versions = "*"
 
 [[package]]
 name = "vulture"
-version = "2.4"
+version = "2.5"
 description = "Find dead code"
 category = "main"
 optional = false
@@ -348,7 +348,7 @@ toml = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "f837f4b3c39b2a0448325accf1a16b58a5df5cc004a0ccc3ba001295c5f70274"
+content-hash = "ab06f9550195bb0735de667f0fd2eef851fc6107501ff23cab7a60318a5b18f7"
 
 [metadata.files]
 atomicwrites = [
@@ -564,6 +564,6 @@ typing-extensions = [
     {file = "typing_extensions-3.10.0.2.tar.gz", hash = "sha256:49f75d16ff11f1cd258e1b988ccff82a3ca5570217d7ad8c5f48205dd99a677e"},
 ]
 vulture = [
-    {file = "vulture-2.4-py2.py3-none-any.whl", hash = "sha256:25acfcacc24884e4344c13601ff43bbfa59faa9cdf330ccce6f4a09c49a2057c"},
-    {file = "vulture-2.4.tar.gz", hash = "sha256:819439294a76b4e0b8e08c70d75565a8ce3dc1f6e03558ed123a5f2bb737c0ea"},
+    {file = "vulture-2.5-py2.py3-none-any.whl", hash = "sha256:a7c7e7a23b11e78840fdd821509d05a6134aa9fd60418fe39d60b3026fe698d9"},
+    {file = "vulture-2.5.tar.gz", hash = "sha256:2831694055eb2e36a09c3b7680934837102b9b6c0969206e3902d513612177c3"},
 ]

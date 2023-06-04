@@ -7,7 +7,7 @@ I found this setup very nice, so I'd like to have it available in the easiest wa
 ## Features
 
 - Project driven by [Python Poetry](https://python-poetry.org/) and [Pyenv](https://github.com/pyenv/pyenv)
-- Supports Python `3.9.x` and `3.10.x` at local development level and CI level
+- Supports Python `3.10.x` and `3.11.x` at local development level and CI level
 - Code conventions driven by [Ruff](https://github.com/charliermarsh/ruff) and [EditorConfig](https://editorconfig.org/)
 - Code formatting driven by [Black](https://github.com/psf/black)
 - Improved error traces driven by [Pretty Errors](https://github.com/onelivesleft/PrettyErrors/)

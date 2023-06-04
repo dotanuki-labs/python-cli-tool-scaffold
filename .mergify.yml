@@ -6,10 +6,10 @@ pull_request_rules:
   - name: Automatic merge for Renovate pull requests
     conditions:
       - author~=^renovate\[bot\]$
-      - check-success=main (ubuntu-22.04, 3.9.16)
       - check-success=main (ubuntu-22.04, 3.10.11)
-      - check-success=main (macos-12, 3.9.16)
+      - check-success=main (ubuntu-22.04, 3.11.3)
       - check-success=main (macos-12, 3.10.11)
+      - check-success=main (macos-12, 3.11.3)
     actions:
       merge:
         method: squash
@@ -17,10 +17,10 @@ pull_request_rules:
   - name: Be owner's friend
     conditions:
       - author~=ubiratansoares
-      - check-success=main (ubuntu-22.04, 3.9.16)
       - check-success=main (ubuntu-22.04, 3.10.11)
-      - check-success=main (macos-12, 3.9.16)
+      - check-success=main (ubuntu-22.04, 3.11.3)
       - check-success=main (macos-12, 3.10.11)
+      - check-success=main (macos-12, 3.11.3)
     actions:
       merge:
         method: squash

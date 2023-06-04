@@ -16,12 +16,12 @@ setup: ## Install dependencies and configure VirtualEnv
 	poetry install
 
 inspect: ## Run code analysis
-	poetry run flake8 python_cli_tool_scaffold tests
+	poetry run ruff python_cli_tool_scaffold tests
 	poetry run black --check python_cli_tool_scaffold tests
 	poetry run bandit -r python_cli_tool_scaffold
 
 test: ## Run unit and integration tests
-	poetry run pytest -vv --cov-report=xml --cov=python_cli_tool_scaffold tests/
+	poetry run pytest -vv tests/
 
 build: ## Package this project in wheels/zip formats
 	poetry build

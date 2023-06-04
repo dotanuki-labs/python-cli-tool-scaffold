@@ -17,7 +17,6 @@ pull_request_rules:
   - name: Be owner's friend
     conditions:
       - author~=ubiratansoares
-      - author~=^dependabot(|-preview)\[bot\]$
       - check-success=main (ubuntu-22.04, 3.9.16)
       - check-success=main (ubuntu-22.04, 3.10.11)
       - check-success=main (macos-12, 3.9.16)

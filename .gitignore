@@ -10,3 +10,4 @@ __pycache__
 coverage.xml
 
 .idea
+.ruff_cache

@@ -12,15 +12,15 @@ jobs:
 
     steps:
       - name: Project checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@bd6b4b6205c4dbad673328db7b31b7fab9e241c0 # v4
         with:
           python-version: '3.8.12'
 
       - name: Install Poetry
-        uses: snok/install-poetry@v1.3
+        uses: snok/install-poetry@d45b6d76012debf457ab49dffc7fb7b2efe8071d # v1.3
         with:
           virtualenvs-create: false
           virtualenvs-in-project: false
@@ -41,17 +41,17 @@ jobs:
 
     steps:
       - name: Project checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3
 
       - name: Log in to GitHub Container Registry
-        uses: docker/login-action@v2.1.0
+        uses: docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a # v2.1.0
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push Container Image
-        uses: docker/build-push-action@v4.0.0
+        uses: docker/build-push-action@3b5e8027fcad23fda98b2e3ac259d8d67585f671 # v4.0.0
         with:
           push: true
           tags: |

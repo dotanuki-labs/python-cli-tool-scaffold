@@ -19,15 +19,15 @@ jobs:
 
     steps:
       - name: Project checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@bd6b4b6205c4dbad673328db7b31b7fab9e241c0 # v4
         with:
           python-version: ${{ matrix.python }}
 
       - name: Install Poetry
-        uses: snok/install-poetry@v1.3
+        uses: snok/install-poetry@d45b6d76012debf457ab49dffc7fb7b2efe8071d # v1.3
         with:
           virtualenvs-create: true
           virtualenvs-in-project: true

@@ -4,7 +4,6 @@ import pretty_errors
 
 
 def main(argv=None):
-
     pretty_errors.configure(
         separator_character="*",
         filename_display=pretty_errors.FILENAME_EXTENDED,

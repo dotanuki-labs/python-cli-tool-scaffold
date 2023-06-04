@@ -1,9 +1,5 @@
 # Scaffold for CLI Tools with Python
 
-## Why
-
-I found this setup very nice, so I'd like to have it available in the easiest way possible for my new Python projects (mostly CLI tools).
-
 ## Features
 
 - Project driven by [Python Poetry](https://python-poetry.org/) and [Pyenv](https://github.com/pyenv/pyenv)
@@ -34,7 +30,6 @@ $> ./scaffold <your project name>
 
 - Ensure your Github repository has the native [Dependabot integration enabled](https://docs.github.com/en/github/administering-a-repository/enabling-and-disabling-version-updates)
 
-- Link your Github repository with [Codecov](https://codecov.io/)
 
 - Add you Pypi access token - as `PYPI_TOKEN` - in Github Actions [Secrets Manager](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
 
@@ -47,7 +42,7 @@ $> ./scaffold <your project name>
 
 ## Author
 
-Coded by Ubiratan Soares (follow me on [Twitter](https://twitter.com/ubiratanfsoares))
+Coded by Ubiratan Soares (follow me on [Mastodon](https://hachyderm.io/@ubiratansoares))
 
 ## License
 

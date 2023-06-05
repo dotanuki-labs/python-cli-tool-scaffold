@@ -1,8 +1,8 @@
-# Scaffold for CLI Tools with Python
+# Scaffold for CLI apps powered by Python 🐍
 
 ## Features
 
-- Project driven by [Python Poetry](https://python-poetry.org/) and [Pyenv](https://github.com/pyenv/pyenv)
+- Setup driven by [Python Poetry](https://python-poetry.org/) and [Pyenv](https://github.com/pyenv/pyenv)
 - Supports Python `3.10.x` and `3.11.x` at local development level and CI level
 - Code conventions driven by [Ruff](https://github.com/charliermarsh/ruff) and [EditorConfig](https://editorconfig.org/)
 - Code formatting driven by [Black](https://github.com/psf/black)
@@ -11,16 +11,15 @@
 - Security checks driven by [Bandit](https://bandit.readthedocs.io/en/latest/)
 - Compreehensive Makefile wrapping common target tasks
 - **Github Actions** Workflow to validate checks on Pull Requests
-- **Github Actions** Workflow to deploy artifacts on [Pypi](https://pypi.org/) on Github releases
+- Ready to deploy artifacts on [Pypi](https://pypi.org/)
 - Opinionated CHANGELOG file driven by [keepachangelog.com](https://keepachangelog.com)
-- Ready to automatically track code coverage with [Codecov](https://codecov.io/)
 - [Renovate](https://docs.renovatebot.com/) ready (`poetry`, `pyenv` and and Github Actions)
 - [Mergify](https://mergify.io/) ready (automated merges for Dependabot updates)
 - [MIT](https://choosealicense.com/licenses/mit) licensed
 
 ## How to use
 
-- Get this template
+- Get this repo
 
 - Run the companion script
 
@@ -28,16 +27,12 @@
 $> ./scaffold <your project name>
 ```
 
-- Ensure your Github repository has the native [Dependabot integration enabled](https://docs.github.com/en/github/administering-a-repository/enabling-and-disabling-version-updates)
-
-
 - Add you Pypi access token - as `PYPI_TOKEN` - in Github Actions [Secrets Manager](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets)
 
 - Set your name and email at `pyproject.toml` (as **author**)
 - Set link(s) for your project repository at `pyproject.toml` (**homepage** and **repository**)
-- If needed, update/change Python version at `pyproject.toml` and for both YAML files at `.github/workflows`
+- If needed, update/change Python version at `pyproject.toml` and for both YAML files at `.github/workflows
 - If your project is open-source, update the `LICENSE` file
-
 - Profit! 💯
 
 ## Author

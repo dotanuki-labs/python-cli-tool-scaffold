@@ -23,7 +23,7 @@ click = "8.1.7"
 ruff = "0.1.9"
 black = "23.12.1"
 bandit = "1.7.6"
-pytest = "7.4.3"
+pytest = "7.4.4"
 
 [tool.poetry.scripts]
 python-cli-tool-scaffold = "python_cli_tool_scaffold:main"

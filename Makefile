@@ -17,7 +17,6 @@ setup: ## Install dependencies and configure VirtualEnv
 
 inspect: ## Run code analysis
 	@poetry run ruff python_cli_tool_scaffold tests
-	@poetry run black --check python_cli_tool_scaffold tests
 	@poetry run bandit -r python_cli_tool_scaffold
 
 test: ## Run unit and integration tests

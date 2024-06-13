@@ -21,7 +21,7 @@ click = "8.1.7"
 
 [tool.poetry.dev-dependencies]
 ruff = "0.4.8"
-bandit = "1.7.8"
+bandit = "1.7.9"
 pytest = "8.2.2"
 
 [tool.poetry.scripts]

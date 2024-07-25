@@ -7,14 +7,11 @@ license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/<repo-owner>/python-cli-tool-scaffold"
 repository = "https://github.com/<repo-owner>/python-cli-tool-scaffold"
-include = [ "LICENSE.md" ]
-classifiers = [
-    "Environment :: Console",
-    "Operating System :: OS Independent"
-]
+include = ["LICENSE.md"]
+classifiers = ["Environment :: Console", "Operating System :: OS Independent"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.11"
 pretty-errors = "1.2.25"
 vulture = "2.11"
 click = "8.1.7"

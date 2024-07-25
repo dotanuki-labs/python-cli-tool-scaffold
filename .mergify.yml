@@ -8,8 +8,8 @@ pull_request_rules:
       - author~=^renovate\[bot\]$
       - check-success=main (ubuntu-22.04, 3.10.11)
       - check-success=main (ubuntu-22.04, 3.11.3)
-      - check-success=main (macos-12, 3.10.11)
-      - check-success=main (macos-12, 3.11.3)
+      - check-success=main (macos-14, 3.10.11)
+      - check-success=main (macos-14, 3.11.3)
     actions:
       merge:
         method: squash
@@ -19,9 +19,8 @@ pull_request_rules:
       - author~=ubiratansoares
       - check-success=main (ubuntu-22.04, 3.10.11)
       - check-success=main (ubuntu-22.04, 3.11.3)
-      - check-success=main (macos-12, 3.10.11)
-      - check-success=main (macos-12, 3.11.3)
+      - check-success=main (macos-14, 3.10.11)
+      - check-success=main (macos-14, 3.11.3)
     actions:
       merge:
         method: squash
-        allow_merging_configuration_change: true

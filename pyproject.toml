@@ -19,7 +19,7 @@ click = "8.1.7"
 [tool.poetry.dev-dependencies]
 ruff = "0.6.4"
 bandit = "1.7.9"
-pytest = "8.3.2"
+pytest = "8.3.3"
 
 [tool.poetry.scripts]
 python-cli-tool-scaffold = "python_cli_tool_scaffold:main"

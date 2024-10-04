@@ -17,7 +17,7 @@ vulture = "2.13"
 click = "8.1.7"
 
 [tool.poetry.dev-dependencies]
-ruff = "0.6.8"
+ruff = "0.6.9"
 bandit = "1.7.10"
 pytest = "8.3.3"
 

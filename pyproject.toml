@@ -13,7 +13,7 @@ classifiers = ["Environment :: Console", "Operating System :: OS Independent"]
 [tool.poetry.dependencies]
 python = "^3.11"
 pretty-errors = "1.2.25"
-vulture = "2.13"
+vulture = "2.14"
 click = "8.1.7"
 
 [tool.poetry.dev-dependencies]

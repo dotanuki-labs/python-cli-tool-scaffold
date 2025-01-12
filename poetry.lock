@@ -2,13 +2,13 @@
 
 [[package]]
 name = "bandit"
-version = "1.8.0"
+version = "1.8.1"
 description = "Security oriented static analyser for python code."
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "bandit-1.8.0-py3-none-any.whl", hash = "sha256:b1a61d829c0968aed625381e426aa378904b996529d048f8d908fa28f6b13e38"},
-    {file = "bandit-1.8.0.tar.gz", hash = "sha256:b5bfe55a095abd9fe20099178a7c6c060f844bfd4fe4c76d28e35e4c52b9d31e"},
+    {file = "bandit-1.8.1-py3-none-any.whl", hash = "sha256:dfcd4bf12f9f28be77ee344098ab7489e97c0c6b7d0b49e2e880d35f246c3714"},
+    {file = "bandit-1.8.1.tar.gz", hash = "sha256:692553451fb36864c80663cd0d8a0015a2a25359d4c2fdea5255708eb7a82013"},
 ]
 
 [package.dependencies]
@@ -314,4 +314,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "49ee370a98a6c0bfb7c422e056d9089038f120411590225dbcb2764c9fbfe9f3"
+content-hash = "08c796236599fbbde0b3781bc725c0a70504165e903aa02a7daff88ca1174b2d"

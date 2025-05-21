@@ -14,7 +14,7 @@ classifiers = ["Environment :: Console", "Operating System :: OS Independent"]
 python = "^3.11"
 pretty-errors = "1.2.25"
 vulture = "2.14"
-click = "8.2.0"
+click = "8.2.1"
 
 [tool.poetry.dev-dependencies]
 ruff = "0.11.10"

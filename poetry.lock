@@ -163,13 +163,13 @@ windows-terminal = ["colorama (>=0.4.6)"]
 
 [[package]]
 name = "pytest"
-version = "8.4.0"
+version = "8.4.1"
 description = "pytest: simple powerful testing with Python"
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "pytest-8.4.0-py3-none-any.whl", hash = "sha256:f40f825768ad76c0977cbacdf1fd37c6f7a468e460ea6a0636078f8972d4517e"},
-    {file = "pytest-8.4.0.tar.gz", hash = "sha256:14d920b48472ea0dbf68e45b96cd1ffda4705f33307dcc86c676c1b5104838a6"},
+    {file = "pytest-8.4.1-py3-none-any.whl", hash = "sha256:539c70ba6fcead8e78eebbf1115e8b589e7565830d7d006a8723f19ac8a0afb7"},
+    {file = "pytest-8.4.1.tar.gz", hash = "sha256:7c67fd69174877359ed9371ec3af8a3d2b04741818c51e5e99cc1742251fa93c"},
 ]
 
 [package.dependencies]
@@ -315,4 +315,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "a661252457011edafec591ba3450b8939215de8a75fa28ef473190e0619d2717"
+content-hash = "372c9593e9b99e024647a995af1e2868c945bb245aac97db31d74a1c8fb56967"
